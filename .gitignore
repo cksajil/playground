@@ -7,9 +7,3 @@ __pycache__/
 
 # Ignore virtual environment
 venv/
-
-# Data files
-MNIST/
-
-# Log files
-lightning_logs/
