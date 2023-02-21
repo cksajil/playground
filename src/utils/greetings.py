@@ -1,5 +1,5 @@
 def say_hello():
-    return 'Hello Visitor'
+    return "Hello Visitor"
 
 
 class Employee:
@@ -9,6 +9,8 @@ class Employee:
         self.salary = salary
 
     def get_basic_info(self):
-        print('Employee named {}, age {}, salary {}'.format(self.name,
-                                                            self.age,
-                                                            self.salary))
+        print(
+            "Employee named {}, age {}, salary {}".format(
+                self.name, self.age, self.salary
+            )
+        )
